@@ -1,14 +1,15 @@
 ## Description
 
 This repo contains a pre-trained model using [icefall][icefall]
-with the following command:
+with the following command (it uses 7 GPUs):
 
 ```
 cd egs/librispeech/ASR
 ./conformer_ctc/train.py \
+  --world-size 7 \
   --max-duration 150 \
-  --full-libri 1 \
   --bucketing-sampler 1 \
+  --full-libri 1 \
   --start-epoch 0 \
   --num-epochs 50 \
   --exp-dir conformer_ctc/exp \
@@ -110,4 +111,4 @@ ngram_lm_scale_2.0_attention_scale_2.0  5.83
 
 ### Note
 
-This repo use git lfs. See <https://git-lfs.github.com/>
+This repo uses `git lfs`. See <https://git-lfs.github.com/>
