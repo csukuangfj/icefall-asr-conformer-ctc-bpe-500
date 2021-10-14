@@ -107,3 +107,7 @@ ngram_lm_scale_2.0_attention_scale_2.0  5.83
 ```
 
 [icefall]: https://github.com/k2-fsa/icefall
+
+### Note
+
+This repo use git lfs. See <https://git-lfs.github.com/>
