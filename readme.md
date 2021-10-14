@@ -62,6 +62,21 @@ ngram_lm_scale_1.1_attention_scale_1.0  2.56
 ngram_lm_scale_1.2_attention_scale_1.0  2.56
 ngram_lm_scale_0.9_attention_scale_0.6  2.57
 ngram_lm_scale_0.9_attention_scale_0.7  2.57
+ngram_lm_scale_1.0_attention_scale_0.6  2.57
+ngram_lm_scale_1.0_attention_scale_0.9  2.57
+ngram_lm_scale_1.1_attention_scale_0.7  2.57
+ngram_lm_scale_1.1_attention_scale_1.1  2.57
+ngram_lm_scale_1.2_attention_scale_0.7  2.57
+ngram_lm_scale_1.2_attention_scale_0.9  2.57
+ngram_lm_scale_1.2_attention_scale_1.1  2.57
+ngram_lm_scale_1.2_attention_scale_1.2  2.57
+ngram_lm_scale_1.3_attention_scale_0.9  2.57
+ngram_lm_scale_1.3_attention_scale_1.1  2.57
+ngram_lm_scale_1.5_attention_scale_1.0  2.57
+ngram_lm_scale_1.5_attention_scale_1.1  2.57
+ngram_lm_scale_1.5_attention_scale_1.2  2.57
+ngram_lm_scale_1.5_attention_scale_1.3  2.57
+ngram_lm_scale_2.0_attention_scale_1.7  2.57
 
 2021-10-14 20:16:17,979 INFO [decode.py:474] batch 0/782, cuts processed until now is 6
 2021-10-14 20:17:54,037 INFO [decode.py:474] batch 100/782, cuts processed until now is 434
