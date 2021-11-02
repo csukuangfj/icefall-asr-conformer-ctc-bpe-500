@@ -1,3 +1,20 @@
+## How to clone this repo
+
+**Caution**: `git clone https://github.com/csukuangfj/icefall-asr-conformer-ctc-bpe-500.git`
+won't work. If you use it, you will encounter the following error in [icefall][icefall]:
+
+```
+_pickle.UnpicklingError: invalid load key, 'v'
+```
+
+Please use the following commands to clone this repo:
+```
+sudo apt-get install git-lfs
+git clone https://github.com/csukuangfj/icefall-asr-conformer-ctc-bpe-500.git
+cd icefall-asr-conformer-ctc-bpe-500
+git lfs pull
+```
+
 ## Description
 
 This repo contains a pre-trained model using [icefall][icefall]
